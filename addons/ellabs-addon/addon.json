@@ -1,5 +1,17 @@
 {
-    "name": "My addon",
+    "name": "ELLabs addon",
     "description": "ELLabs addon",
-    "tags": ["community"]
+    "tags": ["community"],
+    "userscripts": [
+    {
+      "url": "userscript.js",
+      "matches": ["projects", "projectEmbeds"]
+    }
+  ],
+  "userstyles": [
+    {
+      "url": "style.css",
+      "matches": ["projects", "projectEmbeds"]
+    }
+  ]
   }
